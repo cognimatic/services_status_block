@@ -1,0 +1,10 @@
+name: Service Status summary block
+type: module
+description: Summary of status of LocalGov Services based on traffic light coloured icons.
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:block
+  - drupal:link
+  - drupal:fontawesome
+  - localgov_services:localgov_services_status
+

@@ -1,0 +1,7 @@
+<?php
+
+function services_status_block_preprocess_block(&$variables) {
+  if ($variables['plugin_id'] == 'service_status_block') {
+    $variables['#attached']['library'][] = 'services_status_block/global-styling';
+  }
+}
